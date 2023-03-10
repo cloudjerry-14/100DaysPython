@@ -14,7 +14,7 @@ for i in range (len(combined_string)):
         count2+=1
 
 love_score=str(count2)+str(count1)
-if int(love_score)<10 and int(love_score)>90:
+if int(love_score)<10 or int(love_score)>90:
     print(f"Your score is {love_score}, you go together like coke and mentos !")
 elif int(love_score)>40 and int(love_score)<50:
     print(f"Your score is {love_score}, you are all good together!")
