@@ -9,5 +9,5 @@ print(f"You are giving a tip of {tip_percentage}")
 total_people=int(input("Please enter no of people splitting the bill\n"))
 print(f"The bill will split between {total_people} people\n")
 
-final_bill=round(((total_bill + (total_bill*tip_percentage)/100)/total_people),2)
+final_bill="{:.2f}".format((total_bill + (total_bill*tip_percentage)/100)/total_people)
 print(f"Each person will have to pay {final_bill}")
